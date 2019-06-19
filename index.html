@@ -1,18 +1,201 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: blue;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+  background-color: black
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: black;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: blue;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
 <body>
 
-<div class="w3-container w3-center w3-animate-top">
-  <h1>Coffee</h1>
-  <p>This awesome website was made by Year 11 Computing</p>
-<img src="Coffee.jpg"> </img>
+<div class="header">
+  <h1>Gambling Addiction in Australia & The World</h1>
+  <p></p>
+</div>
+
+<div class="topnav">
+  <a href="#">Home</a>
+  <a href="#">Why is it bad</a>
+  <a href="#">Imformation</a>
+  <a href="#" style="float:right">More info</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>What is Gambling?</h2>
+      <h5></h5>
+      <div class=" style="height:200px;"></div>
+	  <img src="Gambling 2.jpg" alt="HTML5 Icon" style="width:320px;height:230px;"> 
+	  <img src="Gambling 6.jpg" alt="HTML5 Icon" style="width:320px;height:230px;">
+      <p>Gambling</p>
+      <p>Gambling is the wagering of money or something of value on an event with an uncertain outcome, with the primary intent of winning money or material goods. Gambling thus requires three elements be present: consideration, risk, and a prize.</p>
+	  <p>Common types of gambling?</p>
+	  <li>Raffle tickets</li>
+  <li>Electronic type like (online poker,slots and keno)</li>
+  <li>Lottery tickets</li>
+  <li>Casino type games </li>
+</ul>
+    </div>
+    <div class="card">
+      <h2>The Problems With Gambling?</h2>
+      <h5>do you have a gambling problem?</h5>
+      <div class=" style="height:200px;"></div
+	  <img src="Gambling 3.jpg" alt="HTML5 Icon" style="width:320px;height:230px;">
+	  <img src="Gambling 5.png" alt="HTML5 Icon" style="width:360px;height:200px;">
+      <p>The risk for people who only play lotteries and scratches is low but rises steeply with the frequency of gambling on table games, wagering and especially gaming machines.</p>
+      <p> Approximately 10 million people in the United States live with a gambling addiction problem. A gambling addiction occurs when a person continues to gamble despite negative effects that may impact their finances, relationships, or well-being.</p>
+	  
+	  <p>Studies have shown that more than $6 billion has been lost each year to gambling addictions. This problem is far-reaching and can cause both individuals and companies to panic and act in ways they would not normally act.</p>
+	  <p>The effects of a gambling addiction are often quite clear. A large number of people who engage in compulsive gambling will use credit cards and debit cards to pay casinos or internet gambling organizations. If you engage in problem gambling, you will most likely incur debt, damage your relationships, and lose sight of your goals in life.</p>
+<img src="Gambling 8.jpg" alt="HTML5 Icon" style="width:260px;height:200px;">	  
+<p>In an Australian report it tallied our national gambling losses at just under $24 billion. Per person that's more than $1,250 lost to gambling every year. We can break these losses down into: $3.33 billion on racing ($175 per person).</p>
+<p> $19.4 billion on gaming ($1,020 per person).</p>
+<p> $1.6 billion on sports betting ($56 per person).</p>
+<img src="Gambling 9.jpg" alt="HTML5 Icon" style="width:320px;height:230px;">
+
+    </div>
   </div>
-   Melbourne in Victoia Australia is argued to have the best Coffee in the world
-<!--LETS PUT SOME IMAGES HERE -->
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Reasons why Teens Gamble?</h2>
+      <div class=" style="height:100px;"></div>
+	  <img src="Gambling 4.jpg" alt="HTML5 Icon" style="width:260px;height:200px;">
+      <p>Teens, like everyone else, gamble for a lot of different reasons. We don’t know all of the reasons, but we know that entertainment, socialization and competition are some of the biggest.</p>
+	  <ul>
+	  <p> Here's why they would gamble</p>
+  <li>For Entertainment</li>
+  <li>To try to win money</li>
+  <li>A family member/loved on gambles</li>
+  <li>To gain attention</li>
+</ul>
+
+    </div>
+    <div class="card">
+      <h3>Interesting facts about Australian Gambling</h3>
+	  <p>According to a 2013 official study, Australians are the biggest gamblers in the world. 80% of the population in Australia participates in gambling in various forms. </p>
+	  <p>40% of Australian adults prefer to play poker, which has a payout percentage average that ranges from 90% to 92%.</p>
+	  <p>One of the world’s largest casino scams was carried out by an Australian player who got away with $32 million by manipulating a venue’s surveillance system.</p>
+	  <p>The highest jackpot amount a person can win while playing in an Australian casino pub is $10,000.</p>
+      <div class=><p></p></div>
+      <div class=><p></p></div>
+      <div class=><p></p></div>
+    </div>
+    <div class="card">
+      <h3> Some  interesting facts/Statistics about gambling </h3>
+      <p>Two boys tried to sue Nintendo in 1999 alleging that Pokémon caused their gambling addictions.</p>
+	  <p>Canadians who win sweepstakes have to answer a math question to claim the winnings to keep it from being considered gambling or a game of chance.</p>
+	  <p>All gambling in Finland is controlled by the government, and all of the profits go to charity.<p>
+	   <img src="Gambling 7.jpg" alt="HTML5 Icon" style="width:220px;height:230px;">
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Websites that can help your gambling</h2>
+  <p>https://www.gamblinghelponline.org.au/</p> <p>https://gamblershelp.com.au/get-help/</p>
+</div>
+
 </body>
 </html>
-
-<!-- Hello There -->
